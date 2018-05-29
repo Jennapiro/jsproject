@@ -1,5 +1,7 @@
 // Here is where we'll implement
-//the student class
+//the employee class
+
+const moment = require('moment'); 
 
 function Employee(props) {
 	this.first_name = props.first_name || "";
