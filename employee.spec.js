@@ -32,11 +32,7 @@ describe("An Employee", () => {
 		let Jenna = new Employee({ first_name: "Jenna", last_name: "Piromalli" });
 
 	it("has an average number of meetings per week", () => {
-    let Jenna = new Employee({
-      first_name: "Jenna",
-      last_name: "Piromalli",
-      position: "Division Vice President"
-    });
+    let Jenna = new Employee({ first_name: "Jenna", last_name: "Piromalli", position: "Division Vice President" });
 	
     // create a mock meeting
     let meet01 = { time: new Date(2018,1,2), location: "the clients office", client: "IBM" };
