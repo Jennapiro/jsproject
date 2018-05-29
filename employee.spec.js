@@ -38,7 +38,7 @@ describe("An Employee", () => {
       position: "Division Vice President"
     });
 	
-	// create a mock meeting
+    // create a mock meeting
     let meet01 = { time: new Date(2018,1,2), location: "the clients office", client: "IBM" };
     let meet02 = { time: new Date(2018,1,5), location: "the clients office", client: "IBM" };
     let meet03 = { time: new Date(2018,1,6), location: "the clients office", client: "IBM" };
