@@ -39,8 +39,7 @@ describe("An Employee", () => {
     });
 	
 	// create a mock meeting
-
-	let meet01 = { time: new Date(2018,1,2), location: "the clients office", client: "IBM" };
+    let meet01 = { time: new Date(2018,1,2), location: "the clients office", client: "IBM" };
     let meet02 = { time: new Date(2018,1,5), location: "the clients office", client: "IBM" };
     let meet03 = { time: new Date(2018,1,6), location: "the clients office", client: "IBM" };
     let meet04 = { time: new Date(2018,1,7), location: "the clients office", client: "IBM" };
