@@ -1,0 +1,15 @@
+{
+  "name": "converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "employee.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^23.0.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "jenna",
+  "license": "ISC"
+}
