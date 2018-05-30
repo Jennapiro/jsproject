@@ -23,7 +23,8 @@ function Employee(props) {
         mpw[week] += 1;
       }
     }
-    let avg_mpw = mpw.reduce((acc, cv) => acc += cv / (mpw.length - 1), 0);
+    mpw = mpw.filter(Number);
+    let avg_mpw = mpw.reduce((acc, cv) => acc += cv / mpw.length, 0);
     return avg_mpw;
   }
 }
