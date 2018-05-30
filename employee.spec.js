@@ -65,6 +65,6 @@ describe("An Employee", () => {
     Jenna.schedule(meet13);
 
     // test what we epxect 
-    expect(jenna.meetings_per_week()).toBe(3.25);
+    expect(Jenna.meetings_per_week()).toBe(3.25);
   });
 });
